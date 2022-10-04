@@ -1,4 +1,9 @@
-export { line } from './line.ts'
-export type { Line } from './line.ts'
-export { lantern } from './lantern.ts'
-export type { Lantern } from './lantern.ts'
+export type { Event } from "./event.ts";
+export {
+  type Emitter,
+  type EventStream,
+  type Listener,
+  type Observable,
+  createEventStream,
+} from "./event-stream.ts";
+export type { Receiver, ReceiverId } from "./receiver.ts";

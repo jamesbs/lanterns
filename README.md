@@ -1,3 +1,3 @@
 # Lanterns
 
-An event producer/consumer pattern similar to ngrx/redux without the reducer.
+Basic event stream library supporting emitting and listening to events.
